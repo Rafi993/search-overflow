@@ -1,0 +1,19 @@
+{
+  "name": "searchOverflow",
+  "version": "0.1",
+  "description": "Display best answered stackoverflow answer in google search result",
+  "manifest_version": 2,
+  "permissions": [
+    "https://*.google.com/search*",
+    "https://stackoverflow.com/",
+    "https://cors-anywhere.herokuapp.com/",
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://*.google.com/search*"],
+      "js": ["index.js"],
+      "css": ["index.css"]
+    }
+  ]
+}

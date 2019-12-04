@@ -1,0 +1,45 @@
+.answer {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #f3f3f3;
+  height: 10em;
+  overflow: auto;
+  padding: 2em 12em;
+  margin: 1em 0;
+}
+
+.post-menu,
+.post-signature,
+.js-voting-container,
+.comments,
+.js-comments-container,
+a.js-add-link.comments-link.disabled-link,
+span.js-link-separator.dno {
+  display: none;
+}
+
+pre {
+  text-align: left;
+  margin: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: inherit;
+  margin-bottom: 1em;
+  padding: 12px 8px;
+  width: 75vw;
+  max-height: 600px;
+  overflow: auto;
+  font-family: monospace, sans-serif;
+  font-size: 13px;
+  background-color: #eff0f1;
+  border-radius: 3px;
+  display: block;
+  color: #393318;
+  word-wrap: normal;
+}
+
+.answer {
+  width: 70vw;
+  overflow: auto;
+}
