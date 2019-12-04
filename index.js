@@ -25,7 +25,6 @@ if (stackoverflow.length > 0) {
     .then(response => response.text())
     .then(html => {
       const answer = getAnswer(html);
-      // console.log(anwser);
       const appBar = document.getElementById("appbar");
       appBar.appendChild(answer);
     })
